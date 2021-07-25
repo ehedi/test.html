@@ -1,0 +1,799 @@
+p,h1, h2, h3, h4, h5, h6{
+    font-family: 'Rubik', sans-serif; 
+} 
+.color{
+    color:#e73c3e ;
+}
+.headertop{
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.header2-menu{
+    background: white;
+}
+.header2-menu ul li{
+    position: relative;
+}
+
+
+
+
+
+
+.header2-menu ul li ul{
+background-color: #fff;
+position: absolute;
+width: 200px;
+text-align:left;
+left: -90px;
+visibility: hidden;
+opacity: o;
+transform: scaleY(0);
+transform-origin: top center;
+transition: .5s;
+}
+.header2-menu ul li:hover ul{
+    transform:scaleY(1);
+visibility: visible;
+opacity: 1;
+}
+.header2-menu ul li ul li a{
+font-weight: 600;
+
+}
+.header2-menu ul{
+margin: auto;
+list-style: none;
+}
+.header2-menu ul li{
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.header2-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.header-info{
+padding: 20px;
+}
+.header-serach{
+padding-right:10px ;
+border-right:1px solid gray ;
+font-size: 20px;
+color: green;
+
+}
+.header-call{
+padding: 5px;
+clear: both;
+}
+.call-icon{
+float: left;
+padding-right: 22px;
+font-size: 40px;
+color:#e73c3e ;
+background: white;
+
+
+
+
+}
+.call-text{
+float: right;
+font-size: 15px;
+opacity: .7;
+}
+.header-btn{
+
+}
+.btn-primary{
+margin-left: 20px;
+color: white;
+background:#e73c3e;
+padding: 16px 50px;
+border-radius: 5%;
+text-decoration: none;
+font-size: 14px;
+position: relative;
+z-index: 1;
+}
+.btn-primary::after{
+    content: "";
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width:0 ;
+    background: #000;
+    position: absolute;
+    z-index: -1;
+    transition: .6s;
+    border-color: #000;
+}
+.btn-primary:hover::after{
+    width: 100%;
+}
+.banner{
+    background:url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg) center center no-repeat ;
+    padding: 10px 0px;
+}
+.bannertext{
+    padding-top: 480px;
+}
+.bannertext h6{
+color: red;
+font-size: 20px;
+}
+.bannertext h1{
+font-size: 65px;
+font-weight: 600;
+margin: 16px 0px;
+}
+.bannertext p{
+opacity: .7;
+font-size:21px;
+margin: 20px 0px;
+}
+.banner .header-btn{
+    margin-left: -17px;
+}
+.banner .follow {
+    color: black;
+    font-size: 19px;
+    margin: 20px 0px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    
+
+}
+.iconfollow a i{
+    font-size: 28px;
+    padding: 17px;
+    position: relative;
+    bottom: 9px;
+    color: black;
+    transition: .5s;
+
+}
+.iconfollow a i:hover{
+    color: red;
+
+}
+.follow h6{
+    padding:3px  12px;
+    font-size: 30px;
+    color: black;
+    padding-top: -10px;
+}
+.follow h5{
+    font-size: 28px;
+}
+.iconfollow{
+    color: black;
+}
+
+
+
+.banbotlogo{
+    margin: 90px 0px;
+    
+}
+.imagelogo{
+    padding: 20px;
+    display: inline-block;
+}
+.company-bot ul li::before{
+    content:"";
+    font-family:Font Awesome 5 Free;
+    font-weight: 600;
+
+
+}
+.sidebar{
+}
+.innerside{
+    max-width: 100%;
+    font-size: 20px;
+}
+.innerside h1{
+font-size: 55px;
+font-weight: 600;
+color: red;
+}
+.innerside h6{
+font-size: 17px;
+font-weight: 600;
+}
+
+.side{
+    background: url(https://templates.envytheme.com/finix/default/assets/img/about/shape.png)  no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -150px;
+    left: 340px;
+    line-height: 100%;
+
+    
+}
+.finix-text h6{
+    color: red;
+}
+.finix-text h1{
+    font-size: 35px;
+}
+.finix-text p{
+    opacity: .7;
+    margin: 15px 0px;
+}
+.company-bot p{
+    opacity: .7;
+    font-size: 23px;
+    margin: 7px 0px;
+}
+.company-bot ul{
+    list-style: red solid;
+    list-style: none;
+}
+.company-bot ul li{
+    opacity: .7;
+    margin: 10px 0px;
+}
+.company-bot ul li i{
+    padding-left: 10px;
+    color: red;
+    margin-right: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.choose{
+    margin: 95px 0px;
+    background-color: rgb(247, 249, 252);
+    padding: 30px 0px;
+    position: relative;
+}
+.chooseimage .choto i{
+    padding: 15px;
+    color: red;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 50px;
+    position: relative;
+    left: 300px;
+    bottom: 170px;
+    
+    
+    
+}
+.chooseimage .choto i::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: red;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: example 2s ease-out infinite;
+}
+
+@keyframes example{
+0%{ 
+    transform: scale(1);
+    opacity: 1;
+}
+50%{
+    transform: scale(1.5);
+    opacity: .5;
+}
+100%{ 
+    transform: scale(2);
+    opacity: .1;
+}
+}
+.choosetext{
+
+}
+.choosetext h6{
+color: red;
+margin: 10px 0px;
+}
+.choosetext h1{
+font-size: 45px;
+margin: 10px 0px;
+}
+.choosetext p{
+    margin: 10px 0px;
+    opacity: .7;
+}
+.chooseicon11{
+    margin: 10px 0px;
+    background: white;
+    box-shadow: 1px 1px 30px rgb(245, 237, 237);
+}
+.chooseicon11 span i{
+margin: 17px 0px;
+font-size: 40px;
+background: white;
+border-radius: 50%;
+padding: 20px;
+color: red;
+transition: .4s;
+}
+.chooseicon11 span i:hover{
+color: white;
+background-color: red;
+}
+.chooseicon11 h2{
+margin-top: 10px;
+margin-bottom: 12px;
+}
+.chooseicon11 p{
+
+}
+.chooseicon11{
+transition: .5s;
+position: relative;
+overflow-y: hidden;
+}
+.chooseicon11:hover{
+    transform: translateY(10px);
+
+}
+.chooseicon11 span i{
+    position: relative;
+}
+.chooseicon11::before{
+    content: "";
+    height: 100%;
+    width: 95%;
+    background-color: rgb(245, 186, 186);
+    position: absolute;
+    right: 12px;
+    bottom: 220px;
+    border-radius: 50%;
+    
+
+
+}
+.deserve{
+padding: 20px 0px;
+}
+.deserve h6{
+color: red;
+margin: 15px 0px;
+font-size: 20px;
+}
+.deserve h1{
+font-weight: 600;
+margin-bottom: 15px;
+}
+.deserve p{
+opacity: .7;
+font-size: 20px;
+margin-bottom: 20px;
+}
+.loan h3{
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.loantext{
+    margin: 30px 0px ;
+}
+.loantext h4{
+font-weight: 600;
+}
+.loantext p{
+
+}
+.pad ul{
+    position: relative;
+}
+.pad ul li{
+    list-style: none;
+}
+
+.pad ul li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    background-color: red;
+    height: 357px;
+    margin-top: 18px;
+    margin-bottom: 100px;
+    
+}
+
+.loantext span{
+    position: relative;
+    color: red;
+    padding:6px 10px;
+    font-size: 15px;
+    border-radius:50% ;
+    border: 2px solid red;
+    font-weight: 600;
+    bottom: -26px;
+    right: 40px;
+    background-color: #fff;
+}
+
+.loantext ul::before{
+    content: "";
+    width: 10px;
+    height: 150px;
+    background: red;
+    color: red;
+}
+.rate{
+    margin: 20px 0px;
+}
+
+
+    .ratetotal{
+        background-color: rgb(250, 154, 154);
+        padding: 40px;
+    }
+    .loanbtn{
+        padding: 20px 50px;
+        margin-top: 15px;
+
+    }
+
+    .callcenter{
+        
+        margin: 90px 0px;
+        background-color: rgb(247, 51, 51);
+        text-align: center;
+        position: relative;
+        background-color: #fff;
+    }
+    .call{
+padding: 40px 70px;
+background-color: rgb(216, 48, 48);
+margin-top: 80px;
+    }
+    .calltext{
+font-size: 35px;
+ color: white;
+ border-right: 2px solid white;
+ margin-left: 10px;
+    }
+    .callnumber{
+font-size: 35px;
+color: white;
+    }
+    .callnumber span{
+        background: #fff;
+        border-radius: 50%;
+        padding:18px 22px;
+        color: red;
+        line-height: 90px;
+    }
+    .callnumber a{
+        color: white;
+    }
+    .comval{
+
+    }
+    .comval h1{
+        margin: 20px 0px;
+    }
+    .comval1{
+
+    }
+    .comvalicon span{
+padding: 20px;
+font-size: 41px;
+margin-bottom: 5px;
+color: red;
+    }
+    .comvaltext{
+        padding: 15px;
+
+    }
+    .comvaltext h2{
+font-size: 28px;
+font-weight: 600;
+    }
+    .comvaltext p{
+opacity: .7;
+    }
+
+    .bole{
+        background: rgb(250, 247, 247); 
+        padding: 20px 0px;
+    }
+
+    .bol{
+        padding: 50px 0px;
+        margin: 60px 0px;}
+
+
+        .sevices-tab{
+            border: none;
+        }
+       
+        
+    .tabmenu{
+padding: 10px;
+background: transparent;
+border:1px solid white;
+margin-bottom: 15px;
+border-bottom: 1px solid black;
+border-radius: none;
+
+
+    }
+    .tabmenu i:hover{
+        color: red;
+        transition: .5s;
+    }
+    .tabmenu i{
+font-size: 30px;
+color: black;
+padding: 15px;
+background: white;
+border-radius: 50%;
+box-shadow: 1px 1px 30px gray;
+
+    }
+    .tabmenu .loan{
+color: black;
+font-weight: 600;
+font-size: 20px;
+
+    }
+
+    .tabimageo img{
+margin-right:17px ;
+    }
+    .gha{
+padding-left: 15px;
+    }
+    .gha h2{
+font-size: 25px;
+font-weight: 600;
+    }
+    .gha p{
+opacity: .8;
+    }
+    .gha ul{
+        padding: 20px;
+        
+        
+    }
+    
+
+    }
+    .gha ul li{
+        font-size: 17px;
+
+    }
+
+    .clientsay{
+        padding: 40px 0px;
+        margin: 16px 0px;
+    }
+    .clientsay h1{
+        font-weight: 600;
+    }
+    .clientsay p{
+        opacity: .8;
+    }
+    .corsel h4{
+font-weight: 600;
+line-height: 40px;
+    }
+    .corsel h6{
+color: red;
+opacity: .8;
+
+    }
+    .corsel p{
+opacity: .8;
+    }
+    .subimg{
+
+    }
+    .subimg span{
+        position: relative;
+        bottom: 120px;
+        left: 70px;
+        font-size: 45px;
+        color: red;
+        background: white;
+        padding: 13px 16px;
+        border-radius: 50%;
+        transition: .5s;
+
+    }
+    .subimg span:hover{
+background: red;
+color: white;
+    }
+
+    .global-team{
+        background-color: rgb(236, 249, 250);
+    }
+    
+    .global{
+        padding: 30px 0px;
+    }
+    .global h6{
+        color: red;
+    }
+    .global h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .team{
+        padding: 15px;
+        margin: 10px;
+    
+    }
+    .team img{
+        width: 260px;
+        height: 320px;
+    }
+    .team h5{
+        color: rgb(236, 33, 33);
+        margin: 7px 0px;
+        font-weight: 600;
+        opacity: .9;
+    }
+    .team p{
+        opacity: .8;
+        margin-top:5px;
+    }
+
+    .au{
+padding: 50px 0px;
+    }
+    .au h6{
+        padding: 10px 0px;
+        color: red;
+        font-size: 20px;
+
+    }
+    .au h1{
+        font-weight: 600;
+        font-size: 40px;
+        margin: 15px 0px;
+    }
+    .au p{
+        width: 560px;
+        text-align: center;
+        margin-left: 300px;
+    }
+    .prai{
+        padding-bottom: 105px;
+    }
+    .ghuka img{
+        width: 330px;
+        height: 280px;
+    }
+    .ghu h6{
+color: red;
+padding: 7px;
+margin-top: 6px;
+    } 
+    .ghu h4{
+font-weight: 600;
+margin-bottom: 18px;
+    }
+    .ghu a {
+        text-decoration: none;
+      
+    }
+    .ghu a h5{
+text-decoration: none;
+color: black;
+font-weight: 600;
+font-size: 15px;
+transition: .4s;
+display: inline-block;
+transform-origin: center;
+
+    }
+    .ghu a h5:hover{
+        color: red;
+        transform:scale(1.2);
+        
+        
+    }
+
+    .footer{
+background-color: black;
+padding-bottom: 30px;
+padding-top: 15px;
+    }
+    .fot1 p{
+        color: white;
+        padding: 16px 0px;
+        line-height: 30px;
+        font-weight: 500;
+
+    }
+    .fot1icon{
+        
+    }
+    .fot1icon h5{
+        font-weight: 600;
+        color:white;
+    }
+    .fot1icon ul a i{
+        
+        color:white ;
+        font-size: 20px;
+        padding: 5px;
+        transition: .4s;
+        
+    }
+    .fot1icon ul a i:hover{
+        color: red;
+        transform: scale(1.1);
+    }
+    .fot2{
+
+    }
+    .fot2 h4{
+color: white;
+padding: 15px;
+    }
+    .fot2 ul{
+list-style: none;
+    }
+    .fot2 ul li{
+padding-left: 0%;
+padding: 10px;
+    }
+    .fot2 ul li a{
+        text-decoration: none;
+        color: white;
+        transition: .4s;
+        padding: 3PX;
+    
+    }
+
+.fot2 ul li a:hover{
+    color: red;
+    transform: scale(1.4);
+}
+
+    .fot2 ul li a i{
+        color: white;
+        position: relative;
+        right: 10px;
+        font-size: 25px;
+    }
+    .last{
+        color: white;
+        margin-top: 150px;
+        padding-bottom: 10px;
+        font-size: 17px;
+        line-height: 60px;
+        opacity: .5;
+    }
+    .lasttex h2{
+        color: white;
+    position: relative;
+    bottom:60px;
+    left:770px ;
+    opacity: .8;
+    font-size: 20px;
+    font-weight: 500;
+    }
+  
